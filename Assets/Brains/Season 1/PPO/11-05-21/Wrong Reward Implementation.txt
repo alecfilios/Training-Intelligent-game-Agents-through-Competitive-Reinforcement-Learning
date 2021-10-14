@@ -1,0 +1,1 @@
+In this implementation the problem was that when we used setReward function you need to step we provided every word of one divided by the distance of the target and the agent. This resulted in larger rewards whenever the agent reads near the target. Finally the agent just was wondering around the target in order to gain the best possible reward.

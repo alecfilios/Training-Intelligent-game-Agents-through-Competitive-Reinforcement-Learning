@@ -1,0 +1,47 @@
+%%writefile config.yaml
+behaviors:
+  MoveToGoal:
+    trainer_type: ppo
+    
+    # Trainer configurations common to all trainers
+    max_steps: 50000000 # Typical range: 5e5 - 1e7
+    time_horizon: 64 # Typical range: 32 - 2048
+    summary_freq: 10000 
+    keep_checkpoints: 5
+    checkpoint_interval: 100000
+    threaded: false
+
+    hyperparameters:
+      # Hyperparameters common to PPO and SAC
+      batch_size: 512 # Typical range: (Continuous - PPO): 512 - 5120
+      buffer_size: 2048 # Typical range: PPO: 2048 - 409600
+      learning_rate: 0.0003 # Typical range: 1e-5 - 1e-3
+      learning_rate_schedule: constant # or linear
+      # PPO-specific hyperparameters
+      # Replaces the "PPO-specific hyperparameters" section above
+      beta: 0.005
+      epsilon: 0.2
+      lambd: 0.95
+      num_epoch: 3
+    # Configuration of the neural network (common to PPO/SAC)
+    network_settings:
+      normalize: false
+      hidden_units: 128
+      num_layers: 2
+      vis_encode_type: simple
+
+
+    # environment reward
+    reward_signals:
+      extrinsic:
+        gamma: 0.99
+        strength: 1.0
+
+    # self-play
+    self_play:
+      save_steps: 20000
+      team_change: 100000
+      swap_steps: 10000
+      window: 10
+      play_against_latest_model_ratio: 0.5
+      initial_elo: 1200.0

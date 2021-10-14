@@ -1,0 +1,23 @@
+{
+    "MoveToGoal": {
+        "checkpoints": [
+            {
+                "steps": 1575,
+                "file_path": "results/localTest1/MoveToGoal/MoveToGoal-1575.onnx",
+                "reward": 0.5,
+                "creation_time": 1619088902.1698308
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1575,
+            "file_path": "results/localTest1/MoveToGoal.onnx",
+            "reward": 0.5,
+            "creation_time": 1619088902.1698308
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.2.0",
+        "mlagents_version": "0.24.1",
+        "torch_version": "1.7.1"
+    }
+}

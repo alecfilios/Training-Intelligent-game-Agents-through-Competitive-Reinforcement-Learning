@@ -1,0 +1,8 @@
+{
+  "ExternalFunctions": [
+    {
+      "Name": "Unity.Collections.LowLevel.Unsafe.UnsafeUtility::MemCpyStride",
+      "FullName": "Unity.Collections.LowLevel.Unsafe.UnsafeUtility.MemCpyStride(void* destination, int destinationStride, void* source, int sourceStride, int elementSize, int count)_DD5999F3D4E56902"
+    }
+  ]
+}

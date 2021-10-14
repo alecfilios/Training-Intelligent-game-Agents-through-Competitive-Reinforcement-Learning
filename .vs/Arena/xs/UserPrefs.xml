@@ -1,0 +1,18 @@
+﻿<Properties StartupConfiguration="{B8C6099D-62AF-0BA6-037D-5E944C305478}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Season 2/HumanoidAgentTwo.cs">
+    <Files>
+      <File FileName="Assets/Scripts/Season 2/HumanoidAgentTwo.cs" Line="172" Column="1" />
+      <File FileName="Assets/Configuration Files/PPO config file S2.txt" />
+      <File FileName="Assets/Configuration Files/SAC config file S1.txt" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="55665dbb-270f-4a68-aa3a-e82c611bdc45" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/alecfilios/Documents/UOI/Thesis/projects/Arena/results/ppo/config.yaml" relfile="results/ppo/config.yaml" line="1" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
