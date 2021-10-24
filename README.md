@@ -1,3 +1,6 @@
+# Training Intelligent game Agents through Competitive Reinforcement Learning
+
+
 <img width="674" alt="Screenshot 2021-08-23 at 9 51 26 PM" src="https://user-images.githubusercontent.com/43823795/138601478-590dcc56-a725-406c-8754-aaa39ecf8253.png">
 
 ## MORE DETAILED DESCRIPTION IN THE PDF FILE
