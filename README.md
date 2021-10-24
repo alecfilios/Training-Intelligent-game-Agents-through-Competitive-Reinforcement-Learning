@@ -1,39 +1,4 @@
-![](./media/image1.png)![](./media/image2.png)
-
-### Περίληψη
-
-Η διπλωματική αυτή εργασία πραγματεύεται την υλοποίηση μιας προσομοίωσης
-στις τρεις διαστάσεις, εντός τις οποίας υπάρχουν κάποιοι πράκτορες
-(agents). Οι πράκτορες αυτοί εκπαιδεύονται προκειμένου να πραγματοποιούν
-συγκεκριμένα καθήκοντα. Χρησιμοποιώντας την πλατφόρμα της Unity3d σε
-συνδιασμό με την βιβλιοθήκη ml-agents που παρέχεται κατασκευάσαμε
-ένα περιβάλλον προσομοίωσης προκειμένου να εκπαιδεύσουμε και να
-αναλύσουμε τα αποτελέσματα μιας ολοκληρωμένης διαδικασίας
-εκπαίδευσης. Βασικός μας στόχος είναι η βελτιστοποίηση των
-προβλημάτων που θέτουμε στους πράκτορες μας. Η τεχνική της τεχνιτής
-νοημοσύνης που χρησιμοποιείται είναι η ενισχυτική μάθηση, ένα από τα
-παρακλάδια της ευρύτερης επιστημονικής περιοχής που λέγεται μηχανική
-μάθηση. Όσον αφορά τη θεωρία, κάνουμε ανάλυση της ενισχυτικής μάθησης
-αλλά και σύγκριση της με άλλες υποκατηγορίες όπως η εποπτευόμενη
-μάθηση και η μη εποπτευόμενη μάθηση. Πιο συγκεκριμένα από την γκάμαa
-τεχνικών που παρέχει η ενισχυτική μάθηση χρησιμοποιούμε το αυτο-παιχνίδι
-(self-play), όπου οι προσομοιώσεις περιέχουν δύο ομάδες από πράκτορες,
-οι οποίοι ανταγωνίζονται για τον ίδιο ή και διαφορετικό σκοπό ως
-αντίπαλοι. Η βιβλιοθήκη ml-agents που αναφέρθηκε παραπάνω παρέχει
-δύο αλγορίθμους τον PPO και τον SAC, για τους οποίους γίνεται εκτενής
-ανάλυση τόσο στο μαθηματικό υπόβαθρο όσο και στη λογική με την οποία
-τους χρησιμοποιούμε. Η εκπαίδευση σε κάθε περίπτωση απαιτεί εκτεταμένη
-ανάλυση του μεγάλου αριθμού υπερπαραμέτρων, σήμα κατατεθέν για την
-ενισχυτική μάθηση. Η υλοποίηση παρουσιάζεται απο το front-end,
-δηλαδη το επίπεδο της παιχνιδομηχανής που περιέχει το περιβάλλον
-μάθησης, μέχρι και το back-end, δηλαδή το νευρωνικό δίκτυο,
-απαραίτητο εργαλείο για την επίτευξη της εκπαίδευσης. Τέλος
-γίνεται παρουσίαση των πειραμάτων και εκτενείς σύγκριση των
-αλγορίθμων που χρησιμοποιήθηκαν καθώς και της ρύθμισης των
-παραμέτρων τους.
-
-**Λέξεις-Κλειδιά**: ενισχυτική μάθηση, αυτο-παιχνίδι, αλγόριθμος PPO,
-αλγόριθμος SAC, βιβλιοθήκη ml-agents, Unity3d, νευρωνικά δίκτυα
+![image100](https://user-images.githubusercontent.com/43823795/138601369-ef80d39c-54dd-4f3d-848c-302e04448fbe.png)
 
 ### Abstract
 
@@ -63,80 +28,6 @@ algorithms used and their hyper-parameter tuning.
 
 **Keywords**: reinforcement learning, rl, self-play, machine learning,
 ml, ml-agents, Unity3d, PPO, SAC
-
-### 
-
-### 
-
-### Table of Contents
-
-**Περίληψη 2**
-
-**Abstract** **3**
-
-**Table of Contents** **4**
-
-1.  **Introduction** **6**
-
-1.1. Problem description 6
-
-1.2. Purpose of the research 6
-
-1.3. Contributions 7
-
-1.4. Thesis structure 7
-
-**2. Theoretical background & Methodology** **8**
-
-2.1. Reinforcement Learning 8
-
-2.2. Algorithm Analysis 14
-
-2.2.1. Proximal Policy Optimization (PPO) 14
-
-2.2.2. Soft Actor-Critic (SAC) 18
-
-2.3. Competitive Self-Play 21
-
-**3. Tools & Platforms** **23**
-
-3.1. Unity3d Game Engine 23
-
-3.2. ML-Agents 24
-
-3.3 Google Colab 25
-
-**4. Implementations & Experiments** **27**
-
-4.1. Hyper-Parameter Tuning 27
-
-4.2. Tensorboard 30
-
-4.3. Game One: Test Experiment 31
-
-4.3.1. Training with PPO 33
-
-4.3.2. Training with SAC 33
-
-4.3.3 Algorithm Comparison 34
-
-4.4. Game Two: Move to Goal Experiment 38
-
-4.4.1 Training with PPO 39
-
-4.4.2. Training with SAC 40
-
-4.4.3. Algorithm Comparison 40
-
-**5. Epilogue** **44**
-
-5.1. Summary and Conclusions 44
-
-5.2. Discussion 44
-
-5.3. Future Extensions 45
-
-**6. Bibliography** **46**
 
 ### Introduction
 
@@ -394,7 +285,6 @@ the reward are given back to the agent in order for the process to
 continue. This procedure runs in a loop for as long as it needs for the
 training to return the results we want.
 
-![](./media/image4.png)
 
 Each RL model consists of the following ingredients:
 
@@ -435,21 +325,6 @@ the agent itself.
 
 Policy - The decision-making mechanism, typically a neural network
 model.
-<img width="927" alt="image59" src="https://user-images.githubusercontent.com/43823795/138595492-add76d0e-150f-45dc-a2c3-42d27b0584b6.png">
-<img width="618" alt="image58" src="https://user-images.githubusercontent.com/43823795/138595495-b51120e6-45b7-433a-aace-8f8f4876942f.png">
-<img width="224" alt="image52" src="https://user-images.githubusercontent.com/43823795/138595499-ab4ecedd-1581-4538-afb5-a17ad9af7b21.png">
-<img width="646" alt="image50" src="https://user-images.githubusercontent.com/43823795/138595501-85b2fb01-f77e-4bae-850c-0dc056e5f108.png">
-<img width="652" alt="image49" src="https://user-images.githubusercontent.com/43823795/138595502-89a7c08c-12b3-4023-9932-a19e2e4265e8.png">
-![image4](https://user-images.githubusercontent.com/43823795/138595504-1e98819f-b5f7-499a-93d6-9e026e78a3ad.png)
-![image35](https://user-images.githubusercontent.com/43823795/138595505-2254ced3-f5d4-4354-ae2f-be60a6b184cc.png)
-<img width="712" alt="image31" src="https://user-images.githubusercontent.com/43823795/138595506-30316f30-fbf9-441e-a07a-bf8a7c278e58.png">
-![image30](https://user-images.githubusercontent.com/43823795/138595509-afa91ad4-b10b-449f-ae46-4a7691930a24.png)
-![image26](https://user-images.githubusercontent.com/43823795/138595510-eeb2f6f6-31cb-40d4-a1be-b81309db3902.png)
-![image21](https://user-images.githubusercontent.com/43823795/138595511-d2fd4b31-9a6c-4621-b3c5-5161b35ca054.png)
-![image2](https://user-images.githubusercontent.com/43823795/138595512-88cce81b-8254-419e-b911-3c16b59a2f9d.png)
-![image17](https://user-images.githubusercontent.com/43823795/138595513-d96f3df2-ca2c-4f30-9788-342fe820e31c.png)
-<img width="831" alt="image16" src="https://user-images.githubusercontent.com/43823795/138595514-517f09db-b68b-47cb-aa0a-a0f889455e09.png">
-![image1](https://user-images.githubusercontent.com/43823795/138595516-61d835bb-9835-47d7-8323-7a699868dfc0.png)
 
 In each step, an agent can receive a constant amount of observations and
 obtains a pool of actions depending on its current policy and the state
@@ -460,156 +335,7 @@ algorithms we are going to discuss next. By doing so we expect better
 results in terms of training time and accuracy.
 
 Policy works like a function, as it returns an action depending on the
-state of the environment the agent faces. The simplest formula is the
-deterministic:
-
-\[\alpha_{t} = \mu(s_{t})\]
-
-where:
-
-μ: the policy function
-
-\(\alpha_{t}\) : the action of the current time t
-
-\(s_{t}\): the current state
-
-In our case the policy is a probabilistic function:
-
-\[\alpha_{t} \sim \pi(\overset{\cdot}{}|s_{t})\]
-
-It usual to write the equations above considering the policy symbol θ:
-
-\[\alpha_{t} = \mu_{\theta}(s_{t})\]
-
-\[\alpha_{t} \sim \pi_{\theta}(\overset{\cdot}{}|s_{t})\]
-
-The two most common kinds of stochastic policies in deep RL
-are categorical policies and diagonal Gaussian policies.
-[Categorical](https://en.wikipedia.org/wiki/Categorical_distribution) policies
-can be used in discrete action spaces, while
-diagonal [Gaussian](https://en.wikipedia.org/wiki/Multivariate_normal_distribution) policies
-are used in continuous action spaces. While using and training
-stochastic policies we apply a sampling from the actions of the policy,
-and the computing log likelihoods of particular actions(for more details
-[<span class="underline">\[12\]</span>](\\l)):
-
-\[log\pi_{\theta}(\alpha|s)\]
-
-A trajectory \(\tau\) is a sequence of states and actions in the
-environment:
-
-\(\tau = (s_{0},a_{0},s_{1},a_{1},...,s_{t},a_{t})\)
-
-, with the very first state \(s_{0}\) randomly sampled from
-the start-state distribution
-
-\[s_{0} \sim p_{0}(\overset{\cdot}{})\]
-
-Each state transition, is governed by the mechanics of the environment,
-and depend on only the most recent action \(a_{t}\)( or plural in case
-there are many agents inside it ). In our case they are all
-probabilistic.
-
-\[s_{t + 1} \sim P(\overset{\cdot}{}|s_{t},a_{t})\]
-
-The reward function depends on the current state, the action just taken,
-and the next state of the:
-
-\[r_{t} = R(s_{t},a_{t},s_{t + 1})\]
-
-The sum of rewards obtained in a fixed window of steps, that we are
-going to use as an indicator of our training’s accuracy, is defined by:
-
-\[R(\tau) = \overset{T}{\sum_{t = 0}}r_{t}\]
-
-Let’s suppose that both the environment transitions and the policy are
-stochastic. In this case, the probability of a T-step trajectory
-is:
-
-\[P(\tau|\pi) = p_{0}(s_{0})\Pi_{\tau = 0}^{(T - 1)}P(s_{t + 1}s_{t},a_{t})\pi(a_{t},s_{t})\]
-
-The expected return, is
-then:
-
-\[J(\pi) = \int_{\tau}P(\tau|\pi)R(\tau) = E_{\tau \sim \pi}\lbrack R(\tau)\rbrack\]
-
-The central optimization problem in RL can then be expressed by
-
-\[\pi^{*} = argmax_{\pi}J(\pi)\]
-
-with  being the optimal policy.
-
-Based on the great work of Spinning up
-[<span class="underline">\[12\]</span>](\\l) we provided some functions
-defined as followed.
-
-The On-Policy Value Function, which gives the expected return if you
-start in state  and always act according to policy :
-
-\(V^{\pi}(s) = E_{\tau \sim \pi}\lbrack R(\tau)|s_{0} = s\rbrack\)
-
-The On-Policy Action-Value Function, which gives the expected return if
-you start in state s, take an arbitrary action a, and then forever after
-act according to
-policy :
-
-\(Q^{\pi}(s,a) = E_{\tau \sim \pi}\lbrack R(\tau)|s_{0} = s,a_{0} = a\rbrack\)
-
-The Optimal Value Function, which gives the expected return if you start
-in state  s and always act according to the optimal policy in the
-environment:
-
-\(V^{*}(s) = max_{\pi}E_{\tau \sim \pi}\lbrack R(\tau)|s_{0} = s\rbrack\)
-
-The Optimal Action-Value Function, which gives the expected return if
-you start in state s, take an arbitrary action a, and then forever after
-act according to the optimal policy in the
-environment:
-
-\(Q^{*}(s,a) = max_{\pi}E_{\tau \sim \pi}\lbrack R(\tau)|s_{0} = s,a_{0} = a\rbrack\)
-
-As a result of \(Q^{*}\) we can directly obtain the optimal action:
-
-\[\alpha^{*}(s) = argmax_{\alpha}Q^{*}(s,a)\]
-
-Considering those functions the Bellman Equations can be formed:
-
-Quote[<span class="underline">\[12\]</span>](\\l): *“The value of your
-starting point is the reward you expect to get from being there, plus
-the value of wherever you land next.”*
-
-Bellman equations for the on-policy value
-functions:
-
-\[V^{\pi}(s) = \underset{s^{\prime} \sim P}{\underset{\alpha \sim \pi}{E}}\lbrack r(s,a) + \gamma V^{\pi}(s^{\prime})\rbrack\]
-
-\[Q^{\pi}(s,\alpha) = \underset{s^{\prime} \sim P}{E}\lbrack r(s,a) + \gamma\underset{\alpha^{\prime} \sim \pi}{E}\lbrack Q^{\pi}(s^{\prime},\alpha^{\prime})\rbrack\rbrack\]
-
-Bellman equations for the optimal value
-functions:
-
-\[V*\pi(s) = \underset{\alpha}{m}ax\underset{s^{\prime} \sim P}{E}\lbrack r(s,a) + \gamma V^{*}(s^{\prime})\rbrack\]
-
-\[Q*\pi(s,\alpha) = \underset{s^{\prime} \sim P}{E}\lbrack r(s,a) + \gamma\underset{\alpha^{\prime}}{m}axQ^{*}(s^{\prime},\alpha^{\prime})\rbrack\]
-
-After adding the max term in the equations, the agent gets to choose its
-action, in order to act optimally, it has to pick whichever action leads
-to the highest value.
-
-Finally the advantage function determines  how much better our action
-than others on average:
-
-\[A^{\pi}(s,a) = Q^{\pi}(s,a) - V^{\pi}(s)\]
-
-The advantage function corresponding to a policy π describes how much
-better it is to take a specific action a in state s, over randomly
-selecting an action according to \(\pi(\overset{\cdot}{}|s)\), assuming
-you act according to π forever after (For further information about the
-structure of the functions \[12\]).
-
-Now that we have described and analysed the basic formulas needed for
-our implementation, we can proceed with the algorithm
-analysis.
+state of the environment the agent faces. 
 
 #### 2.2. Algorithm Analysis
 
@@ -667,200 +393,6 @@ gradient methods are typically less sample efficient than Q-learning
 methods because they only use the collected experience once for doing an
 update.
 
-On general, policy optimization methods usually start by defining the
-policy gradient laws
-as:
-
-\[L^{PG}(\theta) = {\widehat{E}}_{t}\lbrack log\pi_{\theta}(\alpha_{t}|s_{t}){\widehat{A}}_{t}\rbrack\]
-
-where:
-
-  - \({\widehat{E}}_{t}\) : Expectation
-
-  - \(\alpha_{t}|s_{t}\) : Actions per state
-
-  - \({\widehat{A}}_{t}\) : Estimate of the advantage function
-
-The first term pi-theta is our policy. It is a neural network that takes
-observed States from the environment as an input and suggests actions to
-take as an output. The second term is the advantage function
-\({\widehat{A}}_{t}\) which basically tries to estimate what the
-relative value of the selected action in the current state is. In order
-to compute the advantage \({\widehat{A}}_{t}\) we need two things:
-
-1.  Discounted sum of rewards (or Return) is a weighted sum of all the
-    rewards the agent got during each time step in the current
-episode.
-
-\(G_{t} = R_{t + 1} + \gamma R_{t + 2} + ... = \overset{\infty}{\sum_{k = 0}}\gamma^{k}R_{t} + k + 1\)
-
-  - The discount factor (gamma) \(\gamma \in \lbrack 0,1\rbrack\) is the
-    present value of future reward.
-
-  - The value of receiving reward R after k+1 time-steps is
-    \(\gamma^{k}R\).
-
-  - This values immediate reward above delayed reward.
-
-\(\gamma\) close to 0 leads to “myopic” evaluation.
-
-\(\gamma\) close to 1 leads to “far-sighted” evaluation.
-
-The discount factor γ, which is usually between 0.9-0.99, accounts for
-the fact that our agent cares more about reward that is going to get
-very quickly versus same reward it would get a hundred time-steps from
-now. This is exactly the same idea as interest in the financial world in
-a sense that getting money tomorrow is usually more valuable than
-getting the same amount let’s say a year from now.
-
-2\. Baseline estimate (or Value function) tries to give us an estimate
-of the discounted sum of rewards from this point onward. Basically it is
-a guess of what the final return us going to be in this episode starting
-from the current state. During training this neural network representing
-the value function is going to be frequently updated using the
-experiences our agent(s) collect in the environment. This is basically a
-supervised learning problem, we are taking States as an input and the
-neural network is trying to predict what the discounted sum of rewards
-is going to be from this state onwards. Because this value estimate is
-the output of a neural network, this is going to be a noisy estimate
-(Variance will appear).
-
-Thus, if we subtract the baseline estimate (What we expect would happen)
-from the discounted rewards (What we know that happened), we will get
-what we call the advantage estimate, which shows us how much better was
-the actions the agent took based on the expectation of what would
-normally happen in the state we are normally in.
-
-By multiplying the log probabilities
-\(log\pi_{\theta}(\alpha_{t}|s_{t})\) of our policy actions with the
-advantage function \({\widehat{A}}_{t}\) we get the final optimization
-objective that is used in policy gradient.
-
-Back to our
-\(L^{PG}(\theta) = {\widehat{E}}_{t}\lbrack log\pi_{\theta}(\alpha_{t}|s_{t}){\widehat{A}}_{t}\rbrack\).
-
-If \({\widehat{A}}_{t}\) is positive then the gradient is positive and
-it will increase the probability \(\alpha_{t}\) of selecting them again
-in the future when we encounter the same state. And in the other hand if
-\({\widehat{A}}_{t}\) is negative then it will reduce the likelihood of
-these actions.
-
-If we keep running gradient descent on one batch of collected
-experience, what will happen is that we will’ll update the parameters in
-our network so far outside of the range where this data was collected
-that for example the advantage function( which is in principal a noisy
-estimate of the real advantage) is going to be completely wrong. So in a
-sense we are going to destroy our policy, if we keep running gradient
-descent on a single batch of collected experience. To solve this issue,
-one successful approach is to make sure that if we are updating the
-policy, we are never going to move too far away from the old policy.
-
-**Trust Region Methods**
-
-This idea was widely introduced in a paper called “Trust Region Policy
-Optimization”(TRPO). Which is the whole basis on which PPO was build.
-
-Here is the objective function used in TRPO:
-\(\underset{\theta}{maximize}:{\widehat{E}}_{t}\lbrack\frac{\pi_{\theta}(\alpha_{t}|s_{t})}{\pi_{\theta_{old}}(\alpha_{t}|s_{t})}{\widehat{A}}_{t}\rbrack\)
-
-If we compare this with the previous objective function for vanilla
-policy gradient what we can see is that the only thing that changed in
-this formula is that the log operator is replaced with the division by
-pi-theta old.
-
-To make sure that the current policy doesn’t move too far away from the
-current policy TRPO adds a KL constraint to the optimisation objective.
-What this Kl constraint effectively does is that it’s just gonna make
-sure that the new updated policy doesn’t move too far away from the old
-policy. So in a sense we want to stick close to a policy that works
-fine. The problem is that this KL constant adds additional overhead to
-our optimization process and sometimes lead to very undesirable training
-behaviour. At this point PPO comes in handy as it allows us to include
-this extra constraint directly into our optimization objective.
-
-At this point it’s necessary to define a variable
-\(r_{t}(\theta) = \frac{\pi_{\theta}(\alpha_{t}|s_{t})}{\pi_{\theta_{old}}(\alpha_{t}|s_{t})}\)
-which is just the probability ratio between the new updated policy and
-the outputs of the previous old version of the policy network. Given a
-sequence of sampled actions and states this \(r_{t}(\theta)\) value will
-be larger than 1 if the action is more likely now than it was in the old
-version of the policy. And on the other hand it will be somewhere
-between 0 and 1, if the action is less likely now that it was before the
-last gradient step. Then if we multiply this ratio \(r_{t}(\theta)\)
-with the advantage function \({\widehat{A}}_{t}\), we talked before, we
-get the normal TRPO objective in a more readable form. With this
-notation we can finally write the down the central objective function
-that is used in
-PPO:
-
-\(L^{CLIP}(\theta) = {\widehat{E}}_{t}\lbrack min(r_{t}(\theta){\widehat{A}}_{t},clip(r_{t}(\theta),1 - \varepsilon,1 + \varepsilon)\widehat{A})\rbrack\)
-
-First of all we can see that the objective function that PPO optimises
-is an expectation operator, so this means that we are going to compute
-this over batches of trajectories. Also this expectation operator is
-taken over the minimum of two terms.  
-The first of these terms is \(r_{t}(\theta)\) times the advantage
-estimate \({\widehat{A}}_{t}\). So this is the default objective for
-normal policy gradients which pushes the policy towards actions that
-yield a high positive advantage over the baseline.
-
-The second term is very similar to the first one except that it contains
-a truncated version of this \(r_{t}(\theta)\) ratio by applying a
-clipping operation between 1 minus epsilon (e) and 1 plus epsilon, where
-epsilon (e) is usually something like 0.2.
-
-Lastly the min operator is applied to the 2 terms to get the final
-result. It’s important to note that the advantage estimate can be
-positive and negative and this changes the effect of the min operator.
-For instance if an action was good and it became a lot more probable
-after the last gradient descent, we don’t keep updating too much or else
-it might get worse so that’s where we clip when the value reaches 1+ε.
-On the other hand if the action was bad and it just became a lot less
-probable, we don’t keep reducing it’s likelihood too much for now,
-instead what we would really want is to undo out last update (gradient
-step), thus we clip at 1- ε.
-
-Basically the PPO objective does the same as the TRPO objective and
-forces the policy updates to be conservative if they move very faraway
-from the current policy. The only difference is that the PPO does this
-with a very simple objective function that doesn’t require to calculate
-all these additional constraints or KL divergences and in fact it turns
-out that the simple PPO objective function often outperforms the more
-complicated variant that we have in TRPO.
-
-As mentioned before, there are two alternating threads in PPO. In the
-first one, the current policy is interacting with the environment,
-generating episode sequences from which we immediately calculate the
-advantage function, suing our fitted baseline estimate for the state
-values.Then every so many episodes, a second thread is going to collect
-all that experience and run gradient descent on a policy network, using
-the clips PPO objective.![](./media/image16.png)
-
-Final Training Objective in PPO
-
-The final loss function that is used to train an agent is the sum of the
-clips PPO objective \(L_{t}^{CLIP}(\theta)\) we saw above plus two
-additional terms:
-
-The first additional term of the loss function is in charge of updating
-the baseline network. This is the part of the network that is in charge
-of estimating how good it is to be in this state. Or more specifically,
-what is the average amount of this counted reward that we expect to get
-on this point onwards.
-
-The last term of the objective function is called entropy term. This
-term is in charge to make sure that our agent does enough exploration
-during training. Maximising the entropy will force it to have a wide
-spread of all the possible options resulting in the most unpredictable
-outcome.
-
-The hyper-parameters c1 and c2 weight the contributions of these
-different parts of the lost function.
-
-The final formula of PPO, as described above, is the
-following:
-
-\(L_{t}^{PPO}(\theta) = {\widehat{E}}_{t}\lbrack L_{t}^{CLIP}(\theta) - c_{1}L_{t}^{VF}(\theta) + c_{2}S\lbrack\pi_{\theta}\rbrack(s_{t})\rbrack\)
 
 ##### **2.2.2. Soft Actor-Critic (SAC)**
 
@@ -888,7 +420,7 @@ entropy regularisation term and so the decisions are strict.
 
 In the following graph we can distinguish the differences and
 relationships between the mentioned algorithms, in terms of their
-structure characteristics.![](./media/image17.png)
+structure characteristics.
 
 The TRPO and PPO approach: stochastic policies, on-policy, low sampling
 efficiency , stable
@@ -941,42 +473,6 @@ environments with continuous action spaces. Although an alternate
 version of SAC, which slightly changes the policy update rule, can be
 implemented to handle discrete action spaces.
 
-**Entropy-Regularized Reinforcement Learning**
-
-In most RL algorithms, what we want to optimise, is only dependent to
-the reward just in respect of doing well. For example in
-A2C-algorithm:
-
-\(\pi* = \underset{\pi}{argmax}\sum_{t}E_{(s_{t},a_{t}) \sim \rho_{\pi}}\lbrack r(s_{t},\alpha_{t})\rbrack\)
-
-Entropy is the quantity, or in our case, the hyperparameter that
-determines the randomness of the actions our agent takes. Let x be a
-random variable with a probability mass or density function P. The
-entropy H is computed from it’s distribution P according to:  
-\(H(P) = E_{xsimp}\lbrack - logP(x)\rbrack\)
-
-In entropy-regularised reinforcement learning, the agent gets a bonus
-reward at each time step proportional to the entropy of the policy at
-that timestep. This changes the RL problem as follows. Here Sac learns a
-stochastic policy \(\pi^{*}\), maximising both reward and
-entropy
-
-\(\pi* = arg\underset{\pi}{max}E_{t \sim \pi}\lbrack\overset{\infty}{\sum_{t = 0}}r^{t}(R(s_{t},\alpha_{t},S_{t + 1}) + \alpha H(\pi( \cdot |s_{t}))\rbrack\),
-
-where, a\>0 is the trade-off coefficient.
-
-To sum up, Soft Actor-Critic concurrently learns a
-policy \(\pi_{\theta}\) and two
-Q-functions \(Q_{\varphi 1},Q_{\varphi 2}\). There are two variants of
-SAC that are currently standard: one that uses a fixed entropy
-regularisation coefficient , and another that enforces an entropy
-constraint by varying over the course of training. For simplicity,
-[<span class="underline">SpinningUp</span>](\\l) makes use of the
-version with a fixed entropy regularisation coefficient, but the
-entropy-constrained variant is generally preferred by practitioners. SAC
-requires minimal tuning for its hyperparameters and for the sampling as
-well.
-
 ####  2.3. Competitive Self-Play
 
 Learning to play a game, the opponent you play against, heavily
@@ -1011,7 +507,7 @@ policies to change. Moving forward in time after reaching a certain step
 count we take a snapshot of the policy. We then store that snapshot of a
 policy. If the storage is full already we replace the oldest policy with
 the new one. We repeat this process each time we reach a multiple of
-that step![](./media/image21.png) count.
+that step count.
 
 During training, we have our two teams and a collection of policies. One
 team of agents is always playing on a fixed policy, meaning it isn't
@@ -1039,9 +535,9 @@ variety of opponents and provide a more stable learning environment.
 This method is has been validated to return optimal results in a small
 time period of training.
 
-### ![](./media/image26.png)3. Tools & Platforms
+### 3. Tools & Platforms
 
-#### 3.1. Unity3d Game Engine![](./media/image30.png)
+#### 3.1. Unity3d Game Engine
 
 #### 
 
@@ -1138,7 +634,7 @@ already trained brains and gives us the results as feedback.
 
 In order to train the brains, we need to access the Neural Network (NN).
 The bridge between the Environment and the NN is the Python API. On the
-one hand, we have 3d (or in other cases 2d) models that run with C\# and
+one hand, we have 3d (or in other cases 2d) models that run with C# and
 on the other hand, we have a Python Neural Network. The Python API also
 contains the RL training algorithms (PPO & SAC). Based on our decision
 the NN is trained by the selected algorithm. Following in Figure \[3.5\]
@@ -1154,7 +650,7 @@ models on powerful hardware options such as GPUs and TPUs. It provides a
 serverless Jupyter notebook environment for interactive development
 [<span class="underline">\[8\].</span>](\\l)
 
-As mentioned before, one of![](./media/image35.png) our purposes in this
+As mentioned before, one of our purposes in this
 thesis is to guide new researchers into an easy, step-by-step tutorial,
 on how to create new reinforcement learning training simulations. The
 problem that occurred during the process, is that not everyone owns a
@@ -1688,7 +1184,7 @@ training time and mean curriculum reward.
 
 #### 
 
-#### ![](./media/image52.png)
+#### 
 
 #### 
 
@@ -1908,7 +1404,6 @@ appears to be a mandatory process before proceeding in any training.
 
 ![](./media/image59.png)
 
-![](./media/image52.png)
 
 ### 5\. Epilogue
 
