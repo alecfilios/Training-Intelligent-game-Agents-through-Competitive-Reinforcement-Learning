@@ -1,5 +1,5 @@
-![image100](https://user-images.githubusercontent.com/43823795/138601406-91fea971-2c88-4cd3-9edb-eb0abc926d60.png)
-
+<img width="674" alt="Screenshot 2021-08-23 at 9 51 26 PM" src="https://user-images.githubusercontent.com/43823795/138601478-590dcc56-a725-406c-8754-aaa39ecf8253.png">
+# [MORE DETAILED DESCRIPTION IN THE PDF FILE]
 ### Abstract
 
 This diploma thesis deals with the implementation of a simulation in
