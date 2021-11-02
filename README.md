@@ -18,6 +18,7 @@ called machine learning. In the theoretical part, there is an analysis
 of reinforcement learning and a comparison with other subsets of machine
 learning, such as supervised learning and unsupervised learning. More
 specifically, from the range of techniques provided by reinforcement
+
 learning, we use self-play, in which a simulation that contains two
 teams of agents competing for the same or a different purpose as
 opponents. The ml-agents library mentioned above provides two
@@ -33,6 +34,8 @@ algorithms used and their hyper-parameter tuning.
 
 **Keywords**: reinforcement learning, rl, self-play, machine learning,
 ml, ml-agents, Unity3d, PPO, SAC
+
+https://user-images.githubusercontent.com/43823795/139934340-a0507b7a-584d-44fb-b82b-a5cd5e8fe0fa.mov
 
 ### Introduction
 
@@ -67,6 +70,11 @@ community. In order for a researcher to dedicate their time efficiently
 in the matter and not get lost in the vast branch of AI, they need
 guidance. That’s where the issue of the lack of guidance occurred and
 the idea of making this diploma thesis rose.
+
+
+
+https://user-images.githubusercontent.com/43823795/139937095-67dad069-1ccb-4443-a0b5-63ecf5648be3.mov
+
 
 #### 1.2. Purpose of the research
 
