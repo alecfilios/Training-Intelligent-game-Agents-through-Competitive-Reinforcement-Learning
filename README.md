@@ -38,9 +38,6 @@ ml, ml-agents, Unity3d, PPO, SAC
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/43823795/139948987-b38edd3f-8ca8-4671-b1e9-e46851793bfb.gif)
 
 
-
-https://user-images.githubusercontent.com/43823795/139934340-a0507b7a-584d-44fb-b82b-a5cd5e8fe0fa.mov
-
 ### Introduction
 
 #### 1.1. Problem description
@@ -76,8 +73,7 @@ guidance. That’s where the issue of the lack of guidance occurred and
 the idea of making this diploma thesis rose.
 
 
-
-https://user-images.githubusercontent.com/43823795/139937095-67dad069-1ccb-4443-a0b5-63ecf5648be3.mov
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/43823795/139949720-87fb4f0a-1114-46fa-9552-3aa4ae9d6805.gif)
 
 
 #### 1.2. Purpose of the research
